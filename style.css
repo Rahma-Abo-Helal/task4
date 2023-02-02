@@ -1,0 +1,336 @@
+.body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.header{
+    width: 100%;
+    min-height: 20vh;
+    padding-top: 100px;
+    text-align: center;
+    background-image: url(bg-header-desktop.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+p{
+    color: hsl(201, 11%, 66%);
+}
+h3{
+    color: hsl(210, 10%, 33%);
+}
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.text h2{
+   margin: 15px 0;
+    font-size: 40px;
+    font-weight: 200px;
+    color: hsl(210, 10%, 33%)
+}
+.text p{
+    margin: 4px;
+    font-size: 18px;
+    color: hsl(201, 11%, 66%)
+}
+.btn{
+    align-items: center;
+    text-align:  center;
+    padding: 10px;
+    margin: 20px 0px;
+    margin-bottom: 100px;
+
+}
+.btn1{
+    background-color: hsl(171, 66%, 44%);
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 12px 30px;
+    margin-right: 10px;
+    color: aliceblue;
+    border:hsl(171, 66%, 44%);
+    border-bottom-style:groove; 
+    opacity: 0.7;
+}
+.btn2{
+    background-color: hsl(233, 100%, 69%);
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 12px 30px;
+    border: hsl(233, 100%, 69%); 
+    opacity: 0.7;
+    border-bottom-style:groove; 
+    color: aliceblue;
+}
+button:hover{
+    cursor: pointer;
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+  }
+  .text2 h3{
+     margin: 16px 0;
+      font-size: 30px;
+      font-weight: 200px;
+      color: hsl(210, 10%, 33%)
+  }
+  .text2 p{
+    margin: 3px;
+      font-size: 18px;
+      color: hsl(201, 11%, 66%)
+  }
+  .photo1{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    padding: 15px 0;
+  }
+  .row{
+    width:100%;
+    flex-basis: 48;
+    text-align: left;
+  }
+  .row img{
+    margin-top: 30px;
+
+  }
+.row h1{
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: 200px;
+    color: hsl(210, 10%, 33%)
+}
+.row p{
+    width: 40%;
+    margin: 7px;
+    font-size: 18px;
+    color: hsl(201, 11%, 66%);
+}
+.text3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .text3 h2{
+     margin-top: 40px;
+     margin-bottom: 10PX;
+      font-size: 30px;
+      font-weight: 200px;
+      color: hsl(210, 10%, 33%)
+  }
+  .text3 p{
+      width: 38%;
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: hsl(201, 11%, 66%)
+  }
+.image{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* .parent{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 100px;
+}*/
+
+.parent{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 75px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+ }
+ .child1 h3{
+    margin:20px;
+ }
+ .child1 p{
+    margin: 30px 0;
+ }
+ .chid1{
+    width: 85%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+ }
+ .name{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 80%;
+    margin-left:50px;
+ }
+ .big{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    flex-direction: column;
+  
+ }
+ .images{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    flex-direction: column;
+    margin: 100px 50px;
+ }
+
+ footer{
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    background-color: hsl(240, 14%, 96%);
+ }
+.log img{
+    width: 50px;
+    height: 50px;
+    padding-left: 200px;
+    margin: 20px 0;
+}
+.foot {
+    width: 38%;
+   margin-left: 10px;
+   margin-right: 300px;
+   padding: 15px 30px;
+   text-align: left;
+   display: flex;
+ font-size: 18px;
+ }
+.foot a{
+    margin-left: 100px;
+   text-decoration: none;
+   align-items: center;
+   justify-content: center;
+   color: hsl(210, 10%, 33%)
+}
+
+.foot ul li{
+    flex-basis: 20px;
+   list-style-type: none;
+   display: inline-block;
+   align-items: center;
+   text-align: left;
+   padding: 10px 0;
+}
+.foot ul li a:hover{
+    color:hsl(171, 66%, 44%); 
+}
+ .ico{
+    width: 100%;
+    margin-left: 50px;
+ }
+
+@media (max-width:400px){
+button{
+    margin-top: 20px;
+}
+.photo1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.row img{
+    width: 100%;
+    display: block;
+}
+.row{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}  
+.row p{
+    width: 90%;
+}
+.text3 p{
+    width: 100%;
+}
+.image img{
+    width: 100%;
+}
+.parent{
+    display: block;
+}
+footer{
+    display: block;
+}
+.log img{
+    display: block;
+    padding: 0;
+margin-left: 150px;
+}
+.foot{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 80px;
+}
+.foot ul li{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.foot ul li a{ 
+    padding: 0;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.icons img{
+    padding: 0;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+
+
+
+
+
+
+
+
+
+
+
+}
